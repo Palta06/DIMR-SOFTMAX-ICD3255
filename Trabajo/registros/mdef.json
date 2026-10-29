@@ -1,0 +1,125 @@
+{
+  "data_run_id": "4a1958f16b229eaa79160f362d7bd67580ca86ed474409fc3034a7a059322728",
+  "n_train": 696,
+  "n_test": 232,
+  "features": 20,
+  "train_fraction": 0.75,
+  "inventory": [
+    {
+      "file": "class1.csv",
+      "class_id": 0,
+      "class_name": "Saludable",
+      "shape": [
+        120000,
+        4
+      ],
+      "sha256": "9920df3d11e5906c922bb05ab99394182950ce1037a3331efd25494870b324dc",
+      "windows_per_column": 58,
+      "discarded_tail_samples": 1216
+    },
+    {
+      "file": "class2.csv",
+      "class_id": 1,
+      "class_name": "Daño pista externa",
+      "shape": [
+        120000,
+        4
+      ],
+      "sha256": "f05669f8452980ec8242daf91260954261673bb80b6317b3a49d0627d63ee745",
+      "windows_per_column": 58,
+      "discarded_tail_samples": 1216
+    },
+    {
+      "file": "class3.csv",
+      "class_id": 2,
+      "class_name": "Daño pista interna",
+      "shape": [
+        120000,
+        4
+      ],
+      "sha256": "fd65bb613a9eacb6d3d9dd800f0901d6f052e05f4f6d616a8b94fa2a3b1dc248",
+      "windows_per_column": 58,
+      "discarded_tail_samples": 1216
+    },
+    {
+      "file": "class4.csv",
+      "class_id": 3,
+      "class_name": "Daño elementos rodantes",
+      "shape": [
+        120000,
+        4
+      ],
+      "sha256": "4300bf30ec57513315a911cb091a9bfdaa47d12d8e7dfe0499c9a312b26ced85",
+      "windows_per_column": 58,
+      "discarded_tail_samples": 1216
+    }
+  ],
+  "train_counts": [
+    174,
+    174,
+    174,
+    174
+  ],
+  "test_counts": [
+    58,
+    58,
+    58,
+    58
+  ],
+  "preparation_settings": {
+    "seed": 42,
+    "data": {
+      "directory": "../data/originales",
+      "sampling_rate_hz": 12000,
+      "expected_rows": 120000,
+      "columns": [
+        "HP0",
+        "HP1",
+        "HP2",
+        "HP3"
+      ],
+      "classes": [
+        {
+          "file": "class1.csv",
+          "name": "Saludable"
+        },
+        {
+          "file": "class2.csv",
+          "name": "Daño pista externa"
+        },
+        {
+          "file": "class3.csv",
+          "name": "Daño pista interna"
+        },
+        {
+          "file": "class4.csv",
+          "name": "Daño elementos rodantes"
+        }
+      ]
+    },
+    "window": {
+      "length": 2048,
+      "step": 2048
+    },
+    "mde": {
+      "dimension": 3,
+      "delay": 1,
+      "symbols": 3,
+      "max_scale": 20,
+      "normalized": true
+    },
+    "split": {
+      "train_columns": [
+        0,
+        1,
+        2
+      ],
+      "test_columns": [
+        3
+      ]
+    },
+    "normalization": {
+      "ddof": 1
+    }
+  }
+}

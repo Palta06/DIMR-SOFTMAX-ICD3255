@@ -1,0 +1,98 @@
+{
+  "data_run_id": "4a1958f16b229eaa79160f362d7bd67580ca86ed474409fc3034a7a059322728",
+  "dtrain_sha256": "eaeed8e089d04f8f7e7cab298fcec6d29740d9ca4f7b09a5e66bb5b9b106154d",
+  "preparation_settings": {
+    "data": {
+      "classes": [
+        {
+          "file": "class1.csv",
+          "name": "Saludable"
+        },
+        {
+          "file": "class2.csv",
+          "name": "Daño pista externa"
+        },
+        {
+          "file": "class3.csv",
+          "name": "Daño pista interna"
+        },
+        {
+          "file": "class4.csv",
+          "name": "Daño elementos rodantes"
+        }
+      ],
+      "columns": [
+        "HP0",
+        "HP1",
+        "HP2",
+        "HP3"
+      ],
+      "directory": "../data/originales",
+      "expected_rows": 120000,
+      "sampling_rate_hz": 12000
+    },
+    "mde": {
+      "delay": 1,
+      "dimension": 3,
+      "max_scale": 20,
+      "normalized": true,
+      "symbols": 3
+    },
+    "normalization": {
+      "ddof": 1
+    },
+    "seed": 42,
+    "split": {
+      "test_columns": [
+        3
+      ],
+      "train_columns": [
+        0,
+        1,
+        2
+      ]
+    },
+    "window": {
+      "length": 2048,
+      "step": 2048
+    }
+  },
+  "class_names": [
+    "Saludable",
+    "Daño pista externa",
+    "Daño pista interna",
+    "Daño elementos rodantes"
+  ],
+  "settings": {
+    "sls": {
+      "activation": "cos",
+      "latent_dim": 19,
+      "lambda": 0.01,
+      "learning_rate": 0.001,
+      "beta": 0.9,
+      "epsilon": 1e-08,
+      "batch_size": 64,
+      "epochs": 300,
+      "seed": 43
+    },
+    "pca": {
+      "variance_threshold": 0.99,
+      "criterion": "at_least"
+    }
+  },
+  "sls": {
+    "selected_epoch": 299,
+    "initial_cost": 4350.340749405487,
+    "selected_cost": 1470.0263179233239,
+    "selection": "minimum_training_cost",
+    "reconstruction_mse": 0.2109579647156998
+  },
+  "pca": {
+    "rank": 19,
+    "n_components": 16,
+    "retained_variance": 0.9928098522555765,
+    "threshold": 0.99,
+    "criterion": "at_least"
+  },
+  "pesos_sha256": "a220a19f916ef3580b0edf8e2dc89eb9a46019a1480e0d9b3891ac0068208fec"
+}

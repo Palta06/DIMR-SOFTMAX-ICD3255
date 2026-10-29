@@ -1,0 +1,40 @@
+{
+  "seed": 42,
+  "data": {
+    "directory": "../data/originales",
+    "sampling_rate_hz": 12000,
+    "expected_rows": 120000,
+    "columns": ["HP0", "HP1", "HP2", "HP3"],
+    "classes": [
+      {"file": "class1.csv", "name": "Saludable"},
+      {"file": "class2.csv", "name": "Daño pista externa"},
+      {"file": "class3.csv", "name": "Daño pista interna"},
+      {"file": "class4.csv", "name": "Daño elementos rodantes"}
+    ]
+  },
+  "window": {"length": 2048, "step": 2048},
+  "mde": {"dimension": 3, "delay": 1, "symbols": 3, "max_scale": 20, "normalized": true},
+  "split": {"train_columns": [0, 1, 2], "test_columns": [3]},
+  "normalization": {"ddof": 1},
+  "sls": {
+    "activation": "cos",
+    "latent_dim": 19,
+    "lambda": 0.01,
+    "learning_rate": 0.001,
+    "beta": 0.9,
+    "epsilon": 1e-8,
+    "batch_size": 64,
+    "epochs": 300,
+    "seed": 43
+  },
+  "pca": {"variance_threshold": 0.99, "criterion": "at_least"},
+  "softmax": {
+    "intercept": true,
+    "learning_rate": 0.01,
+    "beta": 0.9,
+    "epsilon": 1e-8,
+    "batch_size": 64,
+    "epochs": 500,
+    "seed": 44
+  }
+}

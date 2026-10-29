@@ -1,0 +1,34 @@
+{
+  "Referencias/DISP_Entropy.pdf": {
+    "sha256": "a75e692d2bd2d6d990ec08ef26100a2a5558aec19390374335b58f6ca79e3bed",
+    "bytes": 331133
+  },
+  "Referencias/EJERCICIOS.pdf": {
+    "sha256": "f27ec21a918c925696db45b1bab293648c70f7200c1adc99c95c41c87a3dc86b",
+    "bytes": 222873
+  },
+  "Referencias/Integral-PCA-NonLinearPCA-RFF+RLS.pdf": {
+    "sha256": "323e1614ab0e99b73b1b0da5a3fc41f3c9b918bbc379fa0904aa3de1853dd92d",
+    "bytes": 420111
+  },
+  "Referencias/MultEnt.pdf": {
+    "sha256": "7b62c13b849e5ddaad62fcd9454ece1afa1c847a7b9817c55eadc49f889cb4b4",
+    "bytes": 437689
+  },
+  "Referencias/PERM_Entrropy.pdf": {
+    "sha256": "14e3a9c3619a6f56552c03d9dd36ba4509a9d320c4b6c7cf8e28bee1487b160a",
+    "bytes": 340686
+  },
+  "Referencias/SOFTMAX.pdf": {
+    "sha256": "f7af6165a172a4eb70596b623ed787e35bb5a0959597c912c6378cd42860fefa",
+    "bytes": 379741
+  },
+  "Enunciado-Evaluacion2.pdf": {
+    "sha256": "8b4f1a4b7c5109e99f46212ce33e25c6f913ff974ca8d67f5c491b9ef9a20796",
+    "bytes": 289471
+  },
+  "data/originales/FormatData.pdf": {
+    "sha256": "e714a41a527bf6da76c6b0d58395f0a552b91aaa7392bab8ca2db551b12c22f4",
+    "bytes": 81347
+  }
+}

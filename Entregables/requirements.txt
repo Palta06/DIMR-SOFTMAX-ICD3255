@@ -1,0 +1,3 @@
+# Probado con CPython 3.13 / Linux y NumPy 2.5; versiones mínimas requeridas:
+numpy>=2.0
+matplotlib>=3.8

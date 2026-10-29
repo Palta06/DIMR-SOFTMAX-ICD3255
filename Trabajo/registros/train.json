@@ -1,0 +1,29 @@
+{
+  "data_run_id": "4a1958f16b229eaa79160f362d7bd67580ca86ed474409fc3034a7a059322728",
+  "class_names": [
+    "Saludable",
+    "Daño pista externa",
+    "Daño pista interna",
+    "Daño elementos rodantes"
+  ],
+  "pesos_sha256": "a220a19f916ef3580b0edf8e2dc89eb9a46019a1480e0d9b3891ac0068208fec",
+  "settings": {
+    "intercept": true,
+    "learning_rate": 0.01,
+    "beta": 0.9,
+    "epsilon": 1e-08,
+    "batch_size": 64,
+    "epochs": 500,
+    "seed": 44
+  },
+  "normalization": {
+    "ddof": 1
+  },
+  "training": {
+    "selected_epoch": 493,
+    "initial_cost": 1.3910688906288873,
+    "selected_cost": 0.2837000830375441,
+    "selection": "minimum_training_cost"
+  },
+  "pesoftmax_sha256": "59d0dd49b8d6e95598d77883ce64941a731a3d8f221ab0bb2930f2f961298239"
+}

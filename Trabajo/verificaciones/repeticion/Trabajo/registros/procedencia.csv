@@ -1,0 +1,929 @@
+row,file,class_id,class_name,load,start,stop,split
+0,class4.csv,3,Daño elementos rodantes,HP3,100352,102400,test
+1,class2.csv,1,Daño pista externa,HP3,4096,6144,test
+2,class2.csv,1,Daño pista externa,HP1,32768,34816,train
+3,class4.csv,3,Daño elementos rodantes,HP1,98304,100352,train
+4,class3.csv,2,Daño pista interna,HP2,81920,83968,train
+5,class3.csv,2,Daño pista interna,HP0,59392,61440,train
+6,class2.csv,1,Daño pista externa,HP3,28672,30720,test
+7,class2.csv,1,Daño pista externa,HP2,79872,81920,train
+8,class2.csv,1,Daño pista externa,HP0,14336,16384,train
+9,class4.csv,3,Daño elementos rodantes,HP1,102400,104448,train
+10,class3.csv,2,Daño pista interna,HP1,71680,73728,train
+11,class1.csv,0,Saludable,HP3,12288,14336,test
+12,class3.csv,2,Daño pista interna,HP3,24576,26624,test
+13,class3.csv,2,Daño pista interna,HP2,61440,63488,train
+14,class4.csv,3,Daño elementos rodantes,HP3,108544,110592,test
+15,class1.csv,0,Saludable,HP2,24576,26624,train
+16,class4.csv,3,Daño elementos rodantes,HP1,45056,47104,train
+17,class2.csv,1,Daño pista externa,HP3,36864,38912,test
+18,class4.csv,3,Daño elementos rodantes,HP1,96256,98304,train
+19,class1.csv,0,Saludable,HP0,51200,53248,train
+20,class3.csv,2,Daño pista interna,HP3,53248,55296,test
+21,class4.csv,3,Daño elementos rodantes,HP3,63488,65536,test
+22,class1.csv,0,Saludable,HP0,104448,106496,train
+23,class2.csv,1,Daño pista externa,HP0,57344,59392,train
+24,class2.csv,1,Daño pista externa,HP0,8192,10240,train
+25,class1.csv,0,Saludable,HP3,55296,57344,test
+26,class1.csv,0,Saludable,HP2,30720,32768,train
+27,class4.csv,3,Daño elementos rodantes,HP1,100352,102400,train
+28,class1.csv,0,Saludable,HP1,51200,53248,train
+29,class4.csv,3,Daño elementos rodantes,HP1,26624,28672,train
+30,class2.csv,1,Daño pista externa,HP1,28672,30720,train
+31,class1.csv,0,Saludable,HP2,22528,24576,train
+32,class2.csv,1,Daño pista externa,HP2,24576,26624,train
+33,class4.csv,3,Daño elementos rodantes,HP0,88064,90112,train
+34,class2.csv,1,Daño pista externa,HP1,24576,26624,train
+35,class2.csv,1,Daño pista externa,HP2,69632,71680,train
+36,class3.csv,2,Daño pista interna,HP0,28672,30720,train
+37,class4.csv,3,Daño elementos rodantes,HP1,18432,20480,train
+38,class2.csv,1,Daño pista externa,HP0,86016,88064,train
+39,class2.csv,1,Daño pista externa,HP0,0,2048,train
+40,class1.csv,0,Saludable,HP1,6144,8192,train
+41,class4.csv,3,Daño elementos rodantes,HP2,38912,40960,train
+42,class4.csv,3,Daño elementos rodantes,HP3,32768,34816,test
+43,class2.csv,1,Daño pista externa,HP1,81920,83968,train
+44,class1.csv,0,Saludable,HP3,38912,40960,test
+45,class4.csv,3,Daño elementos rodantes,HP0,14336,16384,train
+46,class2.csv,1,Daño pista externa,HP1,45056,47104,train
+47,class4.csv,3,Daño elementos rodantes,HP3,102400,104448,test
+48,class1.csv,0,Saludable,HP0,73728,75776,train
+49,class1.csv,0,Saludable,HP3,116736,118784,test
+50,class4.csv,3,Daño elementos rodantes,HP0,63488,65536,train
+51,class1.csv,0,Saludable,HP0,112640,114688,train
+52,class1.csv,0,Saludable,HP2,26624,28672,train
+53,class1.csv,0,Saludable,HP1,77824,79872,train
+54,class3.csv,2,Daño pista interna,HP2,10240,12288,train
+55,class3.csv,2,Daño pista interna,HP2,65536,67584,train
+56,class3.csv,2,Daño pista interna,HP2,79872,81920,train
+57,class1.csv,0,Saludable,HP0,77824,79872,train
+58,class2.csv,1,Daño pista externa,HP0,73728,75776,train
+59,class2.csv,1,Daño pista externa,HP2,38912,40960,train
+60,class3.csv,2,Daño pista interna,HP0,102400,104448,train
+61,class3.csv,2,Daño pista interna,HP1,18432,20480,train
+62,class1.csv,0,Saludable,HP0,14336,16384,train
+63,class1.csv,0,Saludable,HP3,59392,61440,test
+64,class1.csv,0,Saludable,HP2,53248,55296,train
+65,class4.csv,3,Daño elementos rodantes,HP1,40960,43008,train
+66,class4.csv,3,Daño elementos rodantes,HP2,73728,75776,train
+67,class1.csv,0,Saludable,HP1,43008,45056,train
+68,class4.csv,3,Daño elementos rodantes,HP2,57344,59392,train
+69,class3.csv,2,Daño pista interna,HP2,16384,18432,train
+70,class4.csv,3,Daño elementos rodantes,HP3,71680,73728,test
+71,class1.csv,0,Saludable,HP2,71680,73728,train
+72,class2.csv,1,Daño pista externa,HP1,59392,61440,train
+73,class4.csv,3,Daño elementos rodantes,HP1,86016,88064,train
+74,class1.csv,0,Saludable,HP1,49152,51200,train
+75,class2.csv,1,Daño pista externa,HP1,14336,16384,train
+76,class2.csv,1,Daño pista externa,HP0,36864,38912,train
+77,class2.csv,1,Daño pista externa,HP1,102400,104448,train
+78,class4.csv,3,Daño elementos rodantes,HP3,92160,94208,test
+79,class1.csv,0,Saludable,HP2,38912,40960,train
+80,class3.csv,2,Daño pista interna,HP3,30720,32768,test
+81,class1.csv,0,Saludable,HP2,73728,75776,train
+82,class2.csv,1,Daño pista externa,HP3,43008,45056,test
+83,class3.csv,2,Daño pista interna,HP0,65536,67584,train
+84,class3.csv,2,Daño pista interna,HP3,98304,100352,test
+85,class3.csv,2,Daño pista interna,HP1,116736,118784,train
+86,class4.csv,3,Daño elementos rodantes,HP1,24576,26624,train
+87,class2.csv,1,Daño pista externa,HP2,51200,53248,train
+88,class2.csv,1,Daño pista externa,HP2,67584,69632,train
+89,class2.csv,1,Daño pista externa,HP2,94208,96256,train
+90,class1.csv,0,Saludable,HP1,81920,83968,train
+91,class4.csv,3,Daño elementos rodantes,HP1,36864,38912,train
+92,class2.csv,1,Daño pista externa,HP3,18432,20480,test
+93,class2.csv,1,Daño pista externa,HP2,47104,49152,train
+94,class4.csv,3,Daño elementos rodantes,HP0,61440,63488,train
+95,class2.csv,1,Daño pista externa,HP1,69632,71680,train
+96,class2.csv,1,Daño pista externa,HP2,92160,94208,train
+97,class1.csv,0,Saludable,HP2,112640,114688,train
+98,class1.csv,0,Saludable,HP1,16384,18432,train
+99,class4.csv,3,Daño elementos rodantes,HP3,96256,98304,test
+100,class4.csv,3,Daño elementos rodantes,HP1,79872,81920,train
+101,class3.csv,2,Daño pista interna,HP3,18432,20480,test
+102,class4.csv,3,Daño elementos rodantes,HP3,73728,75776,test
+103,class3.csv,2,Daño pista interna,HP1,65536,67584,train
+104,class1.csv,0,Saludable,HP2,0,2048,train
+105,class2.csv,1,Daño pista externa,HP2,40960,43008,train
+106,class4.csv,3,Daño elementos rodantes,HP2,83968,86016,train
+107,class3.csv,2,Daño pista interna,HP1,69632,71680,train
+108,class1.csv,0,Saludable,HP2,69632,71680,train
+109,class3.csv,2,Daño pista interna,HP3,108544,110592,test
+110,class3.csv,2,Daño pista interna,HP1,79872,81920,train
+111,class3.csv,2,Daño pista interna,HP1,57344,59392,train
+112,class2.csv,1,Daño pista externa,HP2,104448,106496,train
+113,class3.csv,2,Daño pista interna,HP3,112640,114688,test
+114,class4.csv,3,Daño elementos rodantes,HP3,8192,10240,test
+115,class4.csv,3,Daño elementos rodantes,HP2,28672,30720,train
+116,class2.csv,1,Daño pista externa,HP0,108544,110592,train
+117,class3.csv,2,Daño pista interna,HP2,30720,32768,train
+118,class2.csv,1,Daño pista externa,HP2,65536,67584,train
+119,class1.csv,0,Saludable,HP0,43008,45056,train
+120,class2.csv,1,Daño pista externa,HP3,77824,79872,test
+121,class1.csv,0,Saludable,HP2,102400,104448,train
+122,class1.csv,0,Saludable,HP3,22528,24576,test
+123,class1.csv,0,Saludable,HP1,86016,88064,train
+124,class1.csv,0,Saludable,HP2,55296,57344,train
+125,class4.csv,3,Daño elementos rodantes,HP3,45056,47104,test
+126,class1.csv,0,Saludable,HP0,4096,6144,train
+127,class1.csv,0,Saludable,HP3,102400,104448,test
+128,class2.csv,1,Daño pista externa,HP3,104448,106496,test
+129,class2.csv,1,Daño pista externa,HP3,47104,49152,test
+130,class1.csv,0,Saludable,HP2,63488,65536,train
+131,class1.csv,0,Saludable,HP1,57344,59392,train
+132,class2.csv,1,Daño pista externa,HP2,16384,18432,train
+133,class4.csv,3,Daño elementos rodantes,HP2,47104,49152,train
+134,class2.csv,1,Daño pista externa,HP3,6144,8192,test
+135,class2.csv,1,Daño pista externa,HP1,77824,79872,train
+136,class4.csv,3,Daño elementos rodantes,HP0,94208,96256,train
+137,class1.csv,0,Saludable,HP1,61440,63488,train
+138,class3.csv,2,Daño pista interna,HP2,67584,69632,train
+139,class4.csv,3,Daño elementos rodantes,HP1,0,2048,train
+140,class1.csv,0,Saludable,HP0,12288,14336,train
+141,class2.csv,1,Daño pista externa,HP1,63488,65536,train
+142,class2.csv,1,Daño pista externa,HP3,14336,16384,test
+143,class1.csv,0,Saludable,HP0,22528,24576,train
+144,class4.csv,3,Daño elementos rodantes,HP2,67584,69632,train
+145,class3.csv,2,Daño pista interna,HP2,22528,24576,train
+146,class1.csv,0,Saludable,HP3,90112,92160,test
+147,class3.csv,2,Daño pista interna,HP0,96256,98304,train
+148,class2.csv,1,Daño pista externa,HP0,114688,116736,train
+149,class1.csv,0,Saludable,HP2,8192,10240,train
+150,class1.csv,0,Saludable,HP1,116736,118784,train
+151,class1.csv,0,Saludable,HP0,59392,61440,train
+152,class2.csv,1,Daño pista externa,HP1,34816,36864,train
+153,class2.csv,1,Daño pista externa,HP0,55296,57344,train
+154,class1.csv,0,Saludable,HP0,18432,20480,train
+155,class2.csv,1,Daño pista externa,HP1,73728,75776,train
+156,class1.csv,0,Saludable,HP1,67584,69632,train
+157,class3.csv,2,Daño pista interna,HP3,28672,30720,test
+158,class1.csv,0,Saludable,HP2,77824,79872,train
+159,class1.csv,0,Saludable,HP2,20480,22528,train
+160,class3.csv,2,Daño pista interna,HP2,51200,53248,train
+161,class3.csv,2,Daño pista interna,HP0,49152,51200,train
+162,class1.csv,0,Saludable,HP3,10240,12288,test
+163,class2.csv,1,Daño pista externa,HP3,40960,43008,test
+164,class2.csv,1,Daño pista externa,HP0,18432,20480,train
+165,class4.csv,3,Daño elementos rodantes,HP0,100352,102400,train
+166,class4.csv,3,Daño elementos rodantes,HP1,83968,86016,train
+167,class4.csv,3,Daño elementos rodantes,HP3,104448,106496,test
+168,class4.csv,3,Daño elementos rodantes,HP2,22528,24576,train
+169,class4.csv,3,Daño elementos rodantes,HP0,110592,112640,train
+170,class3.csv,2,Daño pista interna,HP3,47104,49152,test
+171,class3.csv,2,Daño pista interna,HP0,16384,18432,train
+172,class4.csv,3,Daño elementos rodantes,HP2,49152,51200,train
+173,class1.csv,0,Saludable,HP3,51200,53248,test
+174,class2.csv,1,Daño pista externa,HP0,94208,96256,train
+175,class4.csv,3,Daño elementos rodantes,HP2,6144,8192,train
+176,class4.csv,3,Daño elementos rodantes,HP2,10240,12288,train
+177,class3.csv,2,Daño pista interna,HP3,61440,63488,test
+178,class1.csv,0,Saludable,HP1,100352,102400,train
+179,class2.csv,1,Daño pista externa,HP3,116736,118784,test
+180,class4.csv,3,Daño elementos rodantes,HP0,92160,94208,train
+181,class4.csv,3,Daño elementos rodantes,HP2,14336,16384,train
+182,class2.csv,1,Daño pista externa,HP0,32768,34816,train
+183,class4.csv,3,Daño elementos rodantes,HP0,55296,57344,train
+184,class4.csv,3,Daño elementos rodantes,HP0,59392,61440,train
+185,class1.csv,0,Saludable,HP2,108544,110592,train
+186,class2.csv,1,Daño pista externa,HP2,63488,65536,train
+187,class1.csv,0,Saludable,HP0,61440,63488,train
+188,class3.csv,2,Daño pista interna,HP2,32768,34816,train
+189,class2.csv,1,Daño pista externa,HP1,30720,32768,train
+190,class3.csv,2,Daño pista interna,HP1,98304,100352,train
+191,class4.csv,3,Daño elementos rodantes,HP2,20480,22528,train
+192,class1.csv,0,Saludable,HP2,6144,8192,train
+193,class2.csv,1,Daño pista externa,HP2,26624,28672,train
+194,class1.csv,0,Saludable,HP3,98304,100352,test
+195,class2.csv,1,Daño pista externa,HP3,55296,57344,test
+196,class1.csv,0,Saludable,HP0,71680,73728,train
+197,class4.csv,3,Daño elementos rodantes,HP2,88064,90112,train
+198,class2.csv,1,Daño pista externa,HP1,114688,116736,train
+199,class3.csv,2,Daño pista interna,HP1,73728,75776,train
+200,class1.csv,0,Saludable,HP0,92160,94208,train
+201,class4.csv,3,Daño elementos rodantes,HP2,63488,65536,train
+202,class3.csv,2,Daño pista interna,HP0,12288,14336,train
+203,class1.csv,0,Saludable,HP3,65536,67584,test
+204,class3.csv,2,Daño pista interna,HP1,110592,112640,train
+205,class4.csv,3,Daño elementos rodantes,HP0,86016,88064,train
+206,class3.csv,2,Daño pista interna,HP0,100352,102400,train
+207,class2.csv,1,Daño pista externa,HP1,94208,96256,train
+208,class3.csv,2,Daño pista interna,HP2,18432,20480,train
+209,class3.csv,2,Daño pista interna,HP2,69632,71680,train
+210,class3.csv,2,Daño pista interna,HP2,55296,57344,train
+211,class4.csv,3,Daño elementos rodantes,HP2,65536,67584,train
+212,class4.csv,3,Daño elementos rodantes,HP0,71680,73728,train
+213,class4.csv,3,Daño elementos rodantes,HP3,2048,4096,test
+214,class2.csv,1,Daño pista externa,HP3,51200,53248,test
+215,class2.csv,1,Daño pista externa,HP0,22528,24576,train
+216,class1.csv,0,Saludable,HP2,81920,83968,train
+217,class1.csv,0,Saludable,HP0,57344,59392,train
+218,class4.csv,3,Daño elementos rodantes,HP2,110592,112640,train
+219,class2.csv,1,Daño pista externa,HP2,30720,32768,train
+220,class4.csv,3,Daño elementos rodantes,HP2,53248,55296,train
+221,class2.csv,1,Daño pista externa,HP1,83968,86016,train
+222,class3.csv,2,Daño pista interna,HP2,24576,26624,train
+223,class4.csv,3,Daño elementos rodantes,HP2,4096,6144,train
+224,class2.csv,1,Daño pista externa,HP0,12288,14336,train
+225,class2.csv,1,Daño pista externa,HP0,43008,45056,train
+226,class3.csv,2,Daño pista interna,HP1,28672,30720,train
+227,class4.csv,3,Daño elementos rodantes,HP2,79872,81920,train
+228,class1.csv,0,Saludable,HP3,114688,116736,test
+229,class3.csv,2,Daño pista interna,HP3,114688,116736,test
+230,class4.csv,3,Daño elementos rodantes,HP3,65536,67584,test
+231,class1.csv,0,Saludable,HP1,88064,90112,train
+232,class1.csv,0,Saludable,HP2,61440,63488,train
+233,class1.csv,0,Saludable,HP1,26624,28672,train
+234,class3.csv,2,Daño pista interna,HP3,51200,53248,test
+235,class1.csv,0,Saludable,HP1,38912,40960,train
+236,class3.csv,2,Daño pista interna,HP2,94208,96256,train
+237,class4.csv,3,Daño elementos rodantes,HP2,36864,38912,train
+238,class4.csv,3,Daño elementos rodantes,HP3,14336,16384,test
+239,class3.csv,2,Daño pista interna,HP0,14336,16384,train
+240,class1.csv,0,Saludable,HP2,40960,43008,train
+241,class4.csv,3,Daño elementos rodantes,HP2,26624,28672,train
+242,class2.csv,1,Daño pista externa,HP1,51200,53248,train
+243,class1.csv,0,Saludable,HP0,0,2048,train
+244,class2.csv,1,Daño pista externa,HP0,26624,28672,train
+245,class2.csv,1,Daño pista externa,HP3,38912,40960,test
+246,class4.csv,3,Daño elementos rodantes,HP2,59392,61440,train
+247,class1.csv,0,Saludable,HP1,69632,71680,train
+248,class4.csv,3,Daño elementos rodantes,HP0,2048,4096,train
+249,class3.csv,2,Daño pista interna,HP0,30720,32768,train
+250,class2.csv,1,Daño pista externa,HP3,22528,24576,test
+251,class2.csv,1,Daño pista externa,HP0,90112,92160,train
+252,class4.csv,3,Daño elementos rodantes,HP0,75776,77824,train
+253,class1.csv,0,Saludable,HP2,98304,100352,train
+254,class3.csv,2,Daño pista interna,HP0,20480,22528,train
+255,class2.csv,1,Daño pista externa,HP0,24576,26624,train
+256,class2.csv,1,Daño pista externa,HP2,4096,6144,train
+257,class3.csv,2,Daño pista interna,HP2,104448,106496,train
+258,class4.csv,3,Daño elementos rodantes,HP1,32768,34816,train
+259,class4.csv,3,Daño elementos rodantes,HP0,112640,114688,train
+260,class3.csv,2,Daño pista interna,HP3,36864,38912,test
+261,class4.csv,3,Daño elementos rodantes,HP0,38912,40960,train
+262,class2.csv,1,Daño pista externa,HP2,12288,14336,train
+263,class2.csv,1,Daño pista externa,HP3,67584,69632,test
+264,class4.csv,3,Daño elementos rodantes,HP2,0,2048,train
+265,class3.csv,2,Daño pista interna,HP3,73728,75776,test
+266,class3.csv,2,Daño pista interna,HP0,0,2048,train
+267,class4.csv,3,Daño elementos rodantes,HP0,98304,100352,train
+268,class2.csv,1,Daño pista externa,HP0,100352,102400,train
+269,class1.csv,0,Saludable,HP0,90112,92160,train
+270,class1.csv,0,Saludable,HP2,96256,98304,train
+271,class4.csv,3,Daño elementos rodantes,HP2,24576,26624,train
+272,class3.csv,2,Daño pista interna,HP3,110592,112640,test
+273,class1.csv,0,Saludable,HP3,92160,94208,test
+274,class4.csv,3,Daño elementos rodantes,HP3,0,2048,test
+275,class3.csv,2,Daño pista interna,HP1,45056,47104,train
+276,class1.csv,0,Saludable,HP0,24576,26624,train
+277,class1.csv,0,Saludable,HP0,114688,116736,train
+278,class2.csv,1,Daño pista externa,HP3,59392,61440,test
+279,class4.csv,3,Daño elementos rodantes,HP2,114688,116736,train
+280,class2.csv,1,Daño pista externa,HP1,40960,43008,train
+281,class1.csv,0,Saludable,HP3,104448,106496,test
+282,class3.csv,2,Daño pista interna,HP2,43008,45056,train
+283,class3.csv,2,Daño pista interna,HP2,2048,4096,train
+284,class3.csv,2,Daño pista interna,HP3,0,2048,test
+285,class4.csv,3,Daño elementos rodantes,HP3,67584,69632,test
+286,class4.csv,3,Daño elementos rodantes,HP0,77824,79872,train
+287,class4.csv,3,Daño elementos rodantes,HP0,16384,18432,train
+288,class4.csv,3,Daño elementos rodantes,HP1,114688,116736,train
+289,class4.csv,3,Daño elementos rodantes,HP0,65536,67584,train
+290,class2.csv,1,Daño pista externa,HP1,18432,20480,train
+291,class3.csv,2,Daño pista interna,HP3,90112,92160,test
+292,class4.csv,3,Daño elementos rodantes,HP0,102400,104448,train
+293,class4.csv,3,Daño elementos rodantes,HP3,40960,43008,test
+294,class1.csv,0,Saludable,HP3,61440,63488,test
+295,class1.csv,0,Saludable,HP3,88064,90112,test
+296,class1.csv,0,Saludable,HP0,98304,100352,train
+297,class3.csv,2,Daño pista interna,HP3,2048,4096,test
+298,class4.csv,3,Daño elementos rodantes,HP0,22528,24576,train
+299,class1.csv,0,Saludable,HP0,28672,30720,train
+300,class3.csv,2,Daño pista interna,HP2,28672,30720,train
+301,class3.csv,2,Daño pista interna,HP1,49152,51200,train
+302,class4.csv,3,Daño elementos rodantes,HP3,18432,20480,test
+303,class1.csv,0,Saludable,HP3,4096,6144,test
+304,class2.csv,1,Daño pista externa,HP1,90112,92160,train
+305,class1.csv,0,Saludable,HP2,116736,118784,train
+306,class3.csv,2,Daño pista interna,HP0,98304,100352,train
+307,class2.csv,1,Daño pista externa,HP2,8192,10240,train
+308,class3.csv,2,Daño pista interna,HP3,79872,81920,test
+309,class3.csv,2,Daño pista interna,HP2,100352,102400,train
+310,class1.csv,0,Saludable,HP2,88064,90112,train
+311,class2.csv,1,Daño pista externa,HP3,79872,81920,test
+312,class1.csv,0,Saludable,HP0,16384,18432,train
+313,class4.csv,3,Daño elementos rodantes,HP3,75776,77824,test
+314,class2.csv,1,Daño pista externa,HP1,16384,18432,train
+315,class1.csv,0,Saludable,HP3,49152,51200,test
+316,class1.csv,0,Saludable,HP1,4096,6144,train
+317,class2.csv,1,Daño pista externa,HP0,116736,118784,train
+318,class2.csv,1,Daño pista externa,HP2,96256,98304,train
+319,class2.csv,1,Daño pista externa,HP1,110592,112640,train
+320,class4.csv,3,Daño elementos rodantes,HP1,106496,108544,train
+321,class3.csv,2,Daño pista interna,HP3,14336,16384,test
+322,class3.csv,2,Daño pista interna,HP1,88064,90112,train
+323,class2.csv,1,Daño pista externa,HP0,10240,12288,train
+324,class4.csv,3,Daño elementos rodantes,HP0,36864,38912,train
+325,class4.csv,3,Daño elementos rodantes,HP3,34816,36864,test
+326,class3.csv,2,Daño pista interna,HP3,106496,108544,test
+327,class2.csv,1,Daño pista externa,HP2,34816,36864,train
+328,class1.csv,0,Saludable,HP0,40960,43008,train
+329,class4.csv,3,Daño elementos rodantes,HP1,38912,40960,train
+330,class2.csv,1,Daño pista externa,HP0,79872,81920,train
+331,class3.csv,2,Daño pista interna,HP1,104448,106496,train
+332,class3.csv,2,Daño pista interna,HP0,6144,8192,train
+333,class4.csv,3,Daño elementos rodantes,HP2,112640,114688,train
+334,class4.csv,3,Daño elementos rodantes,HP3,94208,96256,test
+335,class1.csv,0,Saludable,HP3,18432,20480,test
+336,class1.csv,0,Saludable,HP2,49152,51200,train
+337,class1.csv,0,Saludable,HP3,57344,59392,test
+338,class4.csv,3,Daño elementos rodantes,HP2,77824,79872,train
+339,class3.csv,2,Daño pista interna,HP2,36864,38912,train
+340,class1.csv,0,Saludable,HP2,16384,18432,train
+341,class4.csv,3,Daño elementos rodantes,HP3,26624,28672,test
+342,class1.csv,0,Saludable,HP1,2048,4096,train
+343,class4.csv,3,Daño elementos rodantes,HP1,34816,36864,train
+344,class3.csv,2,Daño pista interna,HP0,75776,77824,train
+345,class4.csv,3,Daño elementos rodantes,HP2,92160,94208,train
+346,class3.csv,2,Daño pista interna,HP2,114688,116736,train
+347,class4.csv,3,Daño elementos rodantes,HP0,34816,36864,train
+348,class1.csv,0,Saludable,HP1,12288,14336,train
+349,class2.csv,1,Daño pista externa,HP0,4096,6144,train
+350,class4.csv,3,Daño elementos rodantes,HP1,110592,112640,train
+351,class3.csv,2,Daño pista interna,HP1,32768,34816,train
+352,class2.csv,1,Daño pista externa,HP2,81920,83968,train
+353,class1.csv,0,Saludable,HP0,81920,83968,train
+354,class3.csv,2,Daño pista interna,HP1,61440,63488,train
+355,class4.csv,3,Daño elementos rodantes,HP3,81920,83968,test
+356,class2.csv,1,Daño pista externa,HP2,110592,112640,train
+357,class3.csv,2,Daño pista interna,HP1,40960,43008,train
+358,class4.csv,3,Daño elementos rodantes,HP1,14336,16384,train
+359,class4.csv,3,Daño elementos rodantes,HP0,67584,69632,train
+360,class1.csv,0,Saludable,HP2,32768,34816,train
+361,class2.csv,1,Daño pista externa,HP3,83968,86016,test
+362,class1.csv,0,Saludable,HP2,45056,47104,train
+363,class1.csv,0,Saludable,HP2,10240,12288,train
+364,class1.csv,0,Saludable,HP0,94208,96256,train
+365,class2.csv,1,Daño pista externa,HP3,30720,32768,test
+366,class1.csv,0,Saludable,HP3,20480,22528,test
+367,class1.csv,0,Saludable,HP0,108544,110592,train
+368,class3.csv,2,Daño pista interna,HP3,43008,45056,test
+369,class3.csv,2,Daño pista interna,HP0,8192,10240,train
+370,class4.csv,3,Daño elementos rodantes,HP3,55296,57344,test
+371,class4.csv,3,Daño elementos rodantes,HP0,47104,49152,train
+372,class3.csv,2,Daño pista interna,HP1,38912,40960,train
+373,class4.csv,3,Daño elementos rodantes,HP0,32768,34816,train
+374,class3.csv,2,Daño pista interna,HP3,92160,94208,test
+375,class1.csv,0,Saludable,HP2,106496,108544,train
+376,class3.csv,2,Daño pista interna,HP0,10240,12288,train
+377,class3.csv,2,Daño pista interna,HP1,59392,61440,train
+378,class1.csv,0,Saludable,HP2,114688,116736,train
+379,class2.csv,1,Daño pista externa,HP0,75776,77824,train
+380,class4.csv,3,Daño elementos rodantes,HP3,112640,114688,test
+381,class2.csv,1,Daño pista externa,HP0,53248,55296,train
+382,class4.csv,3,Daño elementos rodantes,HP3,90112,92160,test
+383,class4.csv,3,Daño elementos rodantes,HP2,2048,4096,train
+384,class3.csv,2,Daño pista interna,HP3,40960,43008,test
+385,class1.csv,0,Saludable,HP2,57344,59392,train
+386,class2.csv,1,Daño pista externa,HP2,86016,88064,train
+387,class3.csv,2,Daño pista interna,HP0,32768,34816,train
+388,class1.csv,0,Saludable,HP1,55296,57344,train
+389,class2.csv,1,Daño pista externa,HP3,112640,114688,test
+390,class3.csv,2,Daño pista interna,HP3,94208,96256,test
+391,class4.csv,3,Daño elementos rodantes,HP3,114688,116736,test
+392,class3.csv,2,Daño pista interna,HP3,65536,67584,test
+393,class1.csv,0,Saludable,HP3,106496,108544,test
+394,class1.csv,0,Saludable,HP1,106496,108544,train
+395,class2.csv,1,Daño pista externa,HP3,86016,88064,test
+396,class3.csv,2,Daño pista interna,HP2,88064,90112,train
+397,class3.csv,2,Daño pista interna,HP1,10240,12288,train
+398,class3.csv,2,Daño pista interna,HP3,71680,73728,test
+399,class4.csv,3,Daño elementos rodantes,HP3,28672,30720,test
+400,class2.csv,1,Daño pista externa,HP2,59392,61440,train
+401,class2.csv,1,Daño pista externa,HP2,6144,8192,train
+402,class1.csv,0,Saludable,HP3,0,2048,test
+403,class4.csv,3,Daño elementos rodantes,HP0,57344,59392,train
+404,class4.csv,3,Daño elementos rodantes,HP3,53248,55296,test
+405,class3.csv,2,Daño pista interna,HP3,81920,83968,test
+406,class4.csv,3,Daño elementos rodantes,HP1,63488,65536,train
+407,class3.csv,2,Daño pista interna,HP1,102400,104448,train
+408,class1.csv,0,Saludable,HP0,96256,98304,train
+409,class3.csv,2,Daño pista interna,HP2,77824,79872,train
+410,class2.csv,1,Daño pista externa,HP2,106496,108544,train
+411,class1.csv,0,Saludable,HP1,79872,81920,train
+412,class2.csv,1,Daño pista externa,HP3,100352,102400,test
+413,class4.csv,3,Daño elementos rodantes,HP2,16384,18432,train
+414,class1.csv,0,Saludable,HP3,75776,77824,test
+415,class2.csv,1,Daño pista externa,HP1,38912,40960,train
+416,class4.csv,3,Daño elementos rodantes,HP0,106496,108544,train
+417,class1.csv,0,Saludable,HP0,6144,8192,train
+418,class3.csv,2,Daño pista interna,HP0,69632,71680,train
+419,class3.csv,2,Daño pista interna,HP2,102400,104448,train
+420,class1.csv,0,Saludable,HP3,36864,38912,test
+421,class2.csv,1,Daño pista externa,HP3,0,2048,test
+422,class3.csv,2,Daño pista interna,HP3,86016,88064,test
+423,class1.csv,0,Saludable,HP1,45056,47104,train
+424,class4.csv,3,Daño elementos rodantes,HP0,43008,45056,train
+425,class2.csv,1,Daño pista externa,HP3,26624,28672,test
+426,class4.csv,3,Daño elementos rodantes,HP0,10240,12288,train
+427,class2.csv,1,Daño pista externa,HP3,32768,34816,test
+428,class3.csv,2,Daño pista interna,HP2,8192,10240,train
+429,class4.csv,3,Daño elementos rodantes,HP2,104448,106496,train
+430,class3.csv,2,Daño pista interna,HP3,88064,90112,test
+431,class1.csv,0,Saludable,HP3,69632,71680,test
+432,class2.csv,1,Daño pista externa,HP1,112640,114688,train
+433,class2.csv,1,Daño pista externa,HP0,49152,51200,train
+434,class3.csv,2,Daño pista interna,HP1,108544,110592,train
+435,class1.csv,0,Saludable,HP2,34816,36864,train
+436,class4.csv,3,Daño elementos rodantes,HP3,88064,90112,test
+437,class1.csv,0,Saludable,HP2,59392,61440,train
+438,class4.csv,3,Daño elementos rodantes,HP0,116736,118784,train
+439,class1.csv,0,Saludable,HP1,8192,10240,train
+440,class3.csv,2,Daño pista interna,HP1,47104,49152,train
+441,class1.csv,0,Saludable,HP0,102400,104448,train
+442,class3.csv,2,Daño pista interna,HP3,38912,40960,test
+443,class1.csv,0,Saludable,HP1,65536,67584,train
+444,class3.csv,2,Daño pista interna,HP0,106496,108544,train
+445,class2.csv,1,Daño pista externa,HP3,71680,73728,test
+446,class3.csv,2,Daño pista interna,HP1,16384,18432,train
+447,class1.csv,0,Saludable,HP1,28672,30720,train
+448,class1.csv,0,Saludable,HP1,102400,104448,train
+449,class2.csv,1,Daño pista externa,HP2,114688,116736,train
+450,class2.csv,1,Daño pista externa,HP3,57344,59392,test
+451,class2.csv,1,Daño pista externa,HP1,98304,100352,train
+452,class1.csv,0,Saludable,HP1,20480,22528,train
+453,class3.csv,2,Daño pista interna,HP2,57344,59392,train
+454,class2.csv,1,Daño pista externa,HP3,98304,100352,test
+455,class3.csv,2,Daño pista interna,HP0,24576,26624,train
+456,class3.csv,2,Daño pista interna,HP3,12288,14336,test
+457,class3.csv,2,Daño pista interna,HP0,36864,38912,train
+458,class4.csv,3,Daño elementos rodantes,HP1,22528,24576,train
+459,class3.csv,2,Daño pista interna,HP0,92160,94208,train
+460,class1.csv,0,Saludable,HP3,47104,49152,test
+461,class4.csv,3,Daño elementos rodantes,HP1,71680,73728,train
+462,class1.csv,0,Saludable,HP2,79872,81920,train
+463,class4.csv,3,Daño elementos rodantes,HP2,8192,10240,train
+464,class4.csv,3,Daño elementos rodantes,HP3,16384,18432,test
+465,class1.csv,0,Saludable,HP2,28672,30720,train
+466,class1.csv,0,Saludable,HP3,94208,96256,test
+467,class3.csv,2,Daño pista interna,HP3,102400,104448,test
+468,class1.csv,0,Saludable,HP0,67584,69632,train
+469,class1.csv,0,Saludable,HP3,40960,43008,test
+470,class4.csv,3,Daño elementos rodantes,HP2,96256,98304,train
+471,class3.csv,2,Daño pista interna,HP1,0,2048,train
+472,class4.csv,3,Daño elementos rodantes,HP2,108544,110592,train
+473,class4.csv,3,Daño elementos rodantes,HP3,51200,53248,test
+474,class4.csv,3,Daño elementos rodantes,HP1,77824,79872,train
+475,class3.csv,2,Daño pista interna,HP1,20480,22528,train
+476,class1.csv,0,Saludable,HP1,0,2048,train
+477,class2.csv,1,Daño pista externa,HP3,114688,116736,test
+478,class4.csv,3,Daño elementos rodantes,HP1,90112,92160,train
+479,class4.csv,3,Daño elementos rodantes,HP2,55296,57344,train
+480,class3.csv,2,Daño pista interna,HP2,73728,75776,train
+481,class4.csv,3,Daño elementos rodantes,HP1,57344,59392,train
+482,class3.csv,2,Daño pista interna,HP1,83968,86016,train
+483,class1.csv,0,Saludable,HP0,88064,90112,train
+484,class2.csv,1,Daño pista externa,HP0,59392,61440,train
+485,class2.csv,1,Daño pista externa,HP2,102400,104448,train
+486,class4.csv,3,Daño elementos rodantes,HP0,0,2048,train
+487,class4.csv,3,Daño elementos rodantes,HP2,116736,118784,train
+488,class2.csv,1,Daño pista externa,HP0,40960,43008,train
+489,class4.csv,3,Daño elementos rodantes,HP2,45056,47104,train
+490,class4.csv,3,Daño elementos rodantes,HP0,24576,26624,train
+491,class2.csv,1,Daño pista externa,HP3,108544,110592,test
+492,class3.csv,2,Daño pista interna,HP2,4096,6144,train
+493,class4.csv,3,Daño elementos rodantes,HP1,10240,12288,train
+494,class1.csv,0,Saludable,HP3,79872,81920,test
+495,class4.csv,3,Daño elementos rodantes,HP1,108544,110592,train
+496,class1.csv,0,Saludable,HP2,18432,20480,train
+497,class3.csv,2,Daño pista interna,HP2,0,2048,train
+498,class2.csv,1,Daño pista externa,HP0,6144,8192,train
+499,class2.csv,1,Daño pista externa,HP0,98304,100352,train
+500,class1.csv,0,Saludable,HP2,75776,77824,train
+501,class4.csv,3,Daño elementos rodantes,HP2,90112,92160,train
+502,class4.csv,3,Daño elementos rodantes,HP3,110592,112640,test
+503,class4.csv,3,Daño elementos rodantes,HP1,47104,49152,train
+504,class2.csv,1,Daño pista externa,HP1,6144,8192,train
+505,class2.csv,1,Daño pista externa,HP2,53248,55296,train
+506,class2.csv,1,Daño pista externa,HP2,18432,20480,train
+507,class1.csv,0,Saludable,HP0,53248,55296,train
+508,class2.csv,1,Daño pista externa,HP1,108544,110592,train
+509,class1.csv,0,Saludable,HP3,8192,10240,test
+510,class4.csv,3,Daño elementos rodantes,HP0,83968,86016,train
+511,class2.csv,1,Daño pista externa,HP0,83968,86016,train
+512,class4.csv,3,Daño elementos rodantes,HP2,75776,77824,train
+513,class4.csv,3,Daño elementos rodantes,HP3,83968,86016,test
+514,class1.csv,0,Saludable,HP3,112640,114688,test
+515,class2.csv,1,Daño pista externa,HP2,10240,12288,train
+516,class1.csv,0,Saludable,HP1,53248,55296,train
+517,class3.csv,2,Daño pista interna,HP1,75776,77824,train
+518,class4.csv,3,Daño elementos rodantes,HP1,104448,106496,train
+519,class4.csv,3,Daño elementos rodantes,HP1,4096,6144,train
+520,class2.csv,1,Daño pista externa,HP0,102400,104448,train
+521,class2.csv,1,Daño pista externa,HP3,65536,67584,test
+522,class1.csv,0,Saludable,HP2,90112,92160,train
+523,class1.csv,0,Saludable,HP1,32768,34816,train
+524,class3.csv,2,Daño pista interna,HP3,49152,51200,test
+525,class3.csv,2,Daño pista interna,HP1,96256,98304,train
+526,class4.csv,3,Daño elementos rodantes,HP3,61440,63488,test
+527,class1.csv,0,Saludable,HP3,53248,55296,test
+528,class4.csv,3,Daño elementos rodantes,HP0,4096,6144,train
+529,class3.csv,2,Daño pista interna,HP0,108544,110592,train
+530,class3.csv,2,Daño pista interna,HP3,116736,118784,test
+531,class4.csv,3,Daño elementos rodantes,HP3,79872,81920,test
+532,class2.csv,1,Daño pista externa,HP1,10240,12288,train
+533,class2.csv,1,Daño pista externa,HP3,34816,36864,test
+534,class1.csv,0,Saludable,HP2,4096,6144,train
+535,class2.csv,1,Daño pista externa,HP1,96256,98304,train
+536,class3.csv,2,Daño pista interna,HP1,34816,36864,train
+537,class4.csv,3,Daño elementos rodantes,HP3,20480,22528,test
+538,class1.csv,0,Saludable,HP3,83968,86016,test
+539,class4.csv,3,Daño elementos rodantes,HP2,94208,96256,train
+540,class1.csv,0,Saludable,HP0,110592,112640,train
+541,class3.csv,2,Daño pista interna,HP1,92160,94208,train
+542,class3.csv,2,Daño pista interna,HP3,83968,86016,test
+543,class4.csv,3,Daño elementos rodantes,HP1,61440,63488,train
+544,class3.csv,2,Daño pista interna,HP2,26624,28672,train
+545,class4.csv,3,Daño elementos rodantes,HP0,18432,20480,train
+546,class2.csv,1,Daño pista externa,HP3,81920,83968,test
+547,class2.csv,1,Daño pista externa,HP0,106496,108544,train
+548,class4.csv,3,Daño elementos rodantes,HP2,98304,100352,train
+549,class1.csv,0,Saludable,HP1,83968,86016,train
+550,class1.csv,0,Saludable,HP2,47104,49152,train
+551,class4.csv,3,Daño elementos rodantes,HP0,104448,106496,train
+552,class2.csv,1,Daño pista externa,HP1,61440,63488,train
+553,class2.csv,1,Daño pista externa,HP0,28672,30720,train
+554,class1.csv,0,Saludable,HP0,47104,49152,train
+555,class1.csv,0,Saludable,HP3,34816,36864,test
+556,class3.csv,2,Daño pista interna,HP0,83968,86016,train
+557,class2.csv,1,Daño pista externa,HP0,65536,67584,train
+558,class4.csv,3,Daño elementos rodantes,HP1,16384,18432,train
+559,class3.csv,2,Daño pista interna,HP0,2048,4096,train
+560,class4.csv,3,Daño elementos rodantes,HP1,81920,83968,train
+561,class3.csv,2,Daño pista interna,HP1,81920,83968,train
+562,class4.csv,3,Daño elementos rodantes,HP1,30720,32768,train
+563,class3.csv,2,Daño pista interna,HP2,47104,49152,train
+564,class4.csv,3,Daño elementos rodantes,HP0,90112,92160,train
+565,class3.csv,2,Daño pista interna,HP0,114688,116736,train
+566,class2.csv,1,Daño pista externa,HP3,61440,63488,test
+567,class2.csv,1,Daño pista externa,HP3,49152,51200,test
+568,class2.csv,1,Daño pista externa,HP0,61440,63488,train
+569,class2.csv,1,Daño pista externa,HP0,20480,22528,train
+570,class4.csv,3,Daño elementos rodantes,HP1,12288,14336,train
+571,class4.csv,3,Daño elementos rodantes,HP0,40960,43008,train
+572,class3.csv,2,Daño pista interna,HP3,45056,47104,test
+573,class3.csv,2,Daño pista interna,HP0,45056,47104,train
+574,class1.csv,0,Saludable,HP1,92160,94208,train
+575,class2.csv,1,Daño pista externa,HP3,16384,18432,test
+576,class2.csv,1,Daño pista externa,HP1,75776,77824,train
+577,class1.csv,0,Saludable,HP1,94208,96256,train
+578,class4.csv,3,Daño elementos rodantes,HP1,55296,57344,train
+579,class3.csv,2,Daño pista interna,HP2,112640,114688,train
+580,class4.csv,3,Daño elementos rodantes,HP1,49152,51200,train
+581,class2.csv,1,Daño pista externa,HP3,75776,77824,test
+582,class4.csv,3,Daño elementos rodantes,HP3,4096,6144,test
+583,class1.csv,0,Saludable,HP0,63488,65536,train
+584,class3.csv,2,Daño pista interna,HP2,90112,92160,train
+585,class2.csv,1,Daño pista externa,HP2,71680,73728,train
+586,class2.csv,1,Daño pista externa,HP0,45056,47104,train
+587,class1.csv,0,Saludable,HP0,34816,36864,train
+588,class1.csv,0,Saludable,HP0,49152,51200,train
+589,class2.csv,1,Daño pista externa,HP2,14336,16384,train
+590,class3.csv,2,Daño pista interna,HP2,96256,98304,train
+591,class2.csv,1,Daño pista externa,HP2,61440,63488,train
+592,class4.csv,3,Daño elementos rodantes,HP0,53248,55296,train
+593,class4.csv,3,Daño elementos rodantes,HP0,26624,28672,train
+594,class3.csv,2,Daño pista interna,HP1,94208,96256,train
+595,class2.csv,1,Daño pista externa,HP3,110592,112640,test
+596,class1.csv,0,Saludable,HP0,38912,40960,train
+597,class1.csv,0,Saludable,HP2,94208,96256,train
+598,class1.csv,0,Saludable,HP0,32768,34816,train
+599,class4.csv,3,Daño elementos rodantes,HP2,43008,45056,train
+600,class2.csv,1,Daño pista externa,HP1,36864,38912,train
+601,class4.csv,3,Daño elementos rodantes,HP3,59392,61440,test
+602,class3.csv,2,Daño pista interna,HP0,63488,65536,train
+603,class2.csv,1,Daño pista externa,HP1,71680,73728,train
+604,class1.csv,0,Saludable,HP1,30720,32768,train
+605,class1.csv,0,Saludable,HP1,34816,36864,train
+606,class3.csv,2,Daño pista interna,HP0,104448,106496,train
+607,class4.csv,3,Daño elementos rodantes,HP1,28672,30720,train
+608,class4.csv,3,Daño elementos rodantes,HP3,47104,49152,test
+609,class3.csv,2,Daño pista interna,HP1,112640,114688,train
+610,class4.csv,3,Daño elementos rodantes,HP2,71680,73728,train
+611,class3.csv,2,Daño pista interna,HP3,16384,18432,test
+612,class2.csv,1,Daño pista externa,HP0,104448,106496,train
+613,class3.csv,2,Daño pista interna,HP1,106496,108544,train
+614,class2.csv,1,Daño pista externa,HP3,102400,104448,test
+615,class3.csv,2,Daño pista interna,HP3,10240,12288,test
+616,class3.csv,2,Daño pista interna,HP0,4096,6144,train
+617,class3.csv,2,Daño pista interna,HP2,106496,108544,train
+618,class3.csv,2,Daño pista interna,HP3,67584,69632,test
+619,class1.csv,0,Saludable,HP0,55296,57344,train
+620,class2.csv,1,Daño pista externa,HP0,34816,36864,train
+621,class2.csv,1,Daño pista externa,HP1,4096,6144,train
+622,class3.csv,2,Daño pista interna,HP0,26624,28672,train
+623,class2.csv,1,Daño pista externa,HP0,67584,69632,train
+624,class4.csv,3,Daño elementos rodantes,HP1,6144,8192,train
+625,class2.csv,1,Daño pista externa,HP0,30720,32768,train
+626,class3.csv,2,Daño pista interna,HP3,77824,79872,test
+627,class1.csv,0,Saludable,HP3,110592,112640,test
+628,class4.csv,3,Daño elementos rodantes,HP1,2048,4096,train
+629,class4.csv,3,Daño elementos rodantes,HP1,116736,118784,train
+630,class2.csv,1,Daño pista externa,HP1,8192,10240,train
+631,class1.csv,0,Saludable,HP0,45056,47104,train
+632,class1.csv,0,Saludable,HP3,73728,75776,test
+633,class1.csv,0,Saludable,HP1,63488,65536,train
+634,class1.csv,0,Saludable,HP2,65536,67584,train
+635,class3.csv,2,Daño pista interna,HP0,43008,45056,train
+636,class1.csv,0,Saludable,HP3,45056,47104,test
+637,class1.csv,0,Saludable,HP2,36864,38912,train
+638,class3.csv,2,Daño pista interna,HP1,4096,6144,train
+639,class3.csv,2,Daño pista interna,HP3,34816,36864,test
+640,class1.csv,0,Saludable,HP1,18432,20480,train
+641,class3.csv,2,Daño pista interna,HP0,61440,63488,train
+642,class4.csv,3,Daño elementos rodantes,HP1,88064,90112,train
+643,class3.csv,2,Daño pista interna,HP0,67584,69632,train
+644,class4.csv,3,Daño elementos rodantes,HP2,61440,63488,train
+645,class3.csv,2,Daño pista interna,HP0,112640,114688,train
+646,class4.csv,3,Daño elementos rodantes,HP0,8192,10240,train
+647,class3.csv,2,Daño pista interna,HP2,92160,94208,train
+648,class4.csv,3,Daño elementos rodantes,HP3,38912,40960,test
+649,class3.csv,2,Daño pista interna,HP1,30720,32768,train
+650,class3.csv,2,Daño pista interna,HP2,49152,51200,train
+651,class2.csv,1,Daño pista externa,HP2,20480,22528,train
+652,class3.csv,2,Daño pista interna,HP3,57344,59392,test
+653,class3.csv,2,Daño pista interna,HP0,51200,53248,train
+654,class2.csv,1,Daño pista externa,HP0,2048,4096,train
+655,class1.csv,0,Saludable,HP1,104448,106496,train
+656,class4.csv,3,Daño elementos rodantes,HP2,106496,108544,train
+657,class2.csv,1,Daño pista externa,HP3,12288,14336,test
+658,class2.csv,1,Daño pista externa,HP1,2048,4096,train
+659,class1.csv,0,Saludable,HP3,14336,16384,test
+660,class3.csv,2,Daño pista interna,HP2,14336,16384,train
+661,class4.csv,3,Daño elementos rodantes,HP1,43008,45056,train
+662,class2.csv,1,Daño pista externa,HP2,116736,118784,train
+663,class2.csv,1,Daño pista externa,HP2,88064,90112,train
+664,class1.csv,0,Saludable,HP2,100352,102400,train
+665,class2.csv,1,Daño pista externa,HP3,88064,90112,test
+666,class4.csv,3,Daño elementos rodantes,HP1,59392,61440,train
+667,class1.csv,0,Saludable,HP3,71680,73728,test
+668,class2.csv,1,Daño pista externa,HP2,108544,110592,train
+669,class3.csv,2,Daño pista interna,HP3,22528,24576,test
+670,class3.csv,2,Daño pista interna,HP0,18432,20480,train
+671,class1.csv,0,Saludable,HP2,67584,69632,train
+672,class4.csv,3,Daño elementos rodantes,HP3,43008,45056,test
+673,class1.csv,0,Saludable,HP1,24576,26624,train
+674,class2.csv,1,Daño pista externa,HP0,47104,49152,train
+675,class1.csv,0,Saludable,HP0,75776,77824,train
+676,class2.csv,1,Daño pista externa,HP3,45056,47104,test
+677,class3.csv,2,Daño pista interna,HP1,90112,92160,train
+678,class2.csv,1,Daño pista externa,HP1,57344,59392,train
+679,class4.csv,3,Daño elementos rodantes,HP0,28672,30720,train
+680,class2.csv,1,Daño pista externa,HP1,65536,67584,train
+681,class4.csv,3,Daño elementos rodantes,HP3,12288,14336,test
+682,class4.csv,3,Daño elementos rodantes,HP3,24576,26624,test
+683,class1.csv,0,Saludable,HP2,86016,88064,train
+684,class4.csv,3,Daño elementos rodantes,HP3,116736,118784,test
+685,class1.csv,0,Saludable,HP1,75776,77824,train
+686,class2.csv,1,Daño pista externa,HP2,0,2048,train
+687,class3.csv,2,Daño pista interna,HP0,47104,49152,train
+688,class1.csv,0,Saludable,HP3,2048,4096,test
+689,class2.csv,1,Daño pista externa,HP1,104448,106496,train
+690,class4.csv,3,Daño elementos rodantes,HP0,96256,98304,train
+691,class1.csv,0,Saludable,HP3,24576,26624,test
+692,class4.csv,3,Daño elementos rodantes,HP2,86016,88064,train
+693,class2.csv,1,Daño pista externa,HP0,63488,65536,train
+694,class2.csv,1,Daño pista externa,HP3,10240,12288,test
+695,class2.csv,1,Daño pista externa,HP0,51200,53248,train
+696,class4.csv,3,Daño elementos rodantes,HP3,98304,100352,test
+697,class2.csv,1,Daño pista externa,HP1,53248,55296,train
+698,class2.csv,1,Daño pista externa,HP0,38912,40960,train
+699,class4.csv,3,Daño elementos rodantes,HP3,10240,12288,test
+700,class3.csv,2,Daño pista interna,HP2,40960,43008,train
+701,class3.csv,2,Daño pista interna,HP0,86016,88064,train
+702,class1.csv,0,Saludable,HP1,40960,43008,train
+703,class2.csv,1,Daño pista externa,HP0,16384,18432,train
+704,class2.csv,1,Daño pista externa,HP2,57344,59392,train
+705,class1.csv,0,Saludable,HP3,81920,83968,test
+706,class3.csv,2,Daño pista interna,HP1,55296,57344,train
+707,class2.csv,1,Daño pista externa,HP3,24576,26624,test
+708,class4.csv,3,Daño elementos rodantes,HP2,12288,14336,train
+709,class2.csv,1,Daño pista externa,HP0,77824,79872,train
+710,class1.csv,0,Saludable,HP0,26624,28672,train
+711,class3.csv,2,Daño pista interna,HP0,57344,59392,train
+712,class1.csv,0,Saludable,HP2,92160,94208,train
+713,class2.csv,1,Daño pista externa,HP2,90112,92160,train
+714,class1.csv,0,Saludable,HP3,86016,88064,test
+715,class1.csv,0,Saludable,HP3,67584,69632,test
+716,class3.csv,2,Daño pista interna,HP2,53248,55296,train
+717,class3.csv,2,Daño pista interna,HP3,96256,98304,test
+718,class1.csv,0,Saludable,HP1,110592,112640,train
+719,class3.csv,2,Daño pista interna,HP0,88064,90112,train
+720,class1.csv,0,Saludable,HP0,36864,38912,train
+721,class3.csv,2,Daño pista interna,HP3,55296,57344,test
+722,class3.csv,2,Daño pista interna,HP1,2048,4096,train
+723,class1.csv,0,Saludable,HP2,83968,86016,train
+724,class1.csv,0,Saludable,HP3,63488,65536,test
+725,class2.csv,1,Daño pista externa,HP1,92160,94208,train
+726,class2.csv,1,Daño pista externa,HP3,106496,108544,test
+727,class1.csv,0,Saludable,HP3,100352,102400,test
+728,class4.csv,3,Daño elementos rodantes,HP2,102400,104448,train
+729,class3.csv,2,Daño pista interna,HP1,114688,116736,train
+730,class3.csv,2,Daño pista interna,HP0,116736,118784,train
+731,class2.csv,1,Daño pista externa,HP2,28672,30720,train
+732,class4.csv,3,Daño elementos rodantes,HP2,34816,36864,train
+733,class3.csv,2,Daño pista interna,HP0,94208,96256,train
+734,class3.csv,2,Daño pista interna,HP1,100352,102400,train
+735,class2.csv,1,Daño pista externa,HP3,2048,4096,test
+736,class4.csv,3,Daño elementos rodantes,HP1,8192,10240,train
+737,class1.csv,0,Saludable,HP0,8192,10240,train
+738,class1.csv,0,Saludable,HP1,73728,75776,train
+739,class3.csv,2,Daño pista interna,HP1,77824,79872,train
+740,class3.csv,2,Daño pista interna,HP0,34816,36864,train
+741,class3.csv,2,Daño pista interna,HP0,71680,73728,train
+742,class2.csv,1,Daño pista externa,HP1,67584,69632,train
+743,class1.csv,0,Saludable,HP1,71680,73728,train
+744,class4.csv,3,Daño elementos rodantes,HP1,53248,55296,train
+745,class4.csv,3,Daño elementos rodantes,HP1,69632,71680,train
+746,class2.csv,1,Daño pista externa,HP2,83968,86016,train
+747,class2.csv,1,Daño pista externa,HP2,100352,102400,train
+748,class3.csv,2,Daño pista interna,HP1,86016,88064,train
+749,class1.csv,0,Saludable,HP0,65536,67584,train
+750,class2.csv,1,Daño pista externa,HP2,77824,79872,train
+751,class2.csv,1,Daño pista externa,HP2,32768,34816,train
+752,class3.csv,2,Daño pista interna,HP3,59392,61440,test
+753,class2.csv,1,Daño pista externa,HP3,96256,98304,test
+754,class2.csv,1,Daño pista externa,HP3,69632,71680,test
+755,class3.csv,2,Daño pista interna,HP3,4096,6144,test
+756,class3.csv,2,Daño pista interna,HP2,108544,110592,train
+757,class1.csv,0,Saludable,HP3,108544,110592,test
+758,class2.csv,1,Daño pista externa,HP2,43008,45056,train
+759,class3.csv,2,Daño pista interna,HP3,8192,10240,test
+760,class2.csv,1,Daño pista externa,HP3,20480,22528,test
+761,class2.csv,1,Daño pista externa,HP3,94208,96256,test
+762,class1.csv,0,Saludable,HP1,47104,49152,train
+763,class4.csv,3,Daño elementos rodantes,HP1,20480,22528,train
+764,class4.csv,3,Daño elementos rodantes,HP1,92160,94208,train
+765,class2.csv,1,Daño pista externa,HP2,45056,47104,train
+766,class2.csv,1,Daño pista externa,HP1,43008,45056,train
+767,class2.csv,1,Daño pista externa,HP3,90112,92160,test
+768,class1.csv,0,Saludable,HP0,106496,108544,train
+769,class4.csv,3,Daño elementos rodantes,HP2,69632,71680,train
+770,class2.csv,1,Daño pista externa,HP1,106496,108544,train
+771,class3.csv,2,Daño pista interna,HP1,36864,38912,train
+772,class2.csv,1,Daño pista externa,HP0,71680,73728,train
+773,class4.csv,3,Daño elementos rodantes,HP0,51200,53248,train
+774,class1.csv,0,Saludable,HP1,98304,100352,train
+775,class1.csv,0,Saludable,HP2,12288,14336,train
+776,class2.csv,1,Daño pista externa,HP2,98304,100352,train
+777,class4.csv,3,Daño elementos rodantes,HP3,106496,108544,test
+778,class3.csv,2,Daño pista interna,HP1,22528,24576,train
+779,class4.csv,3,Daño elementos rodantes,HP0,69632,71680,train
+780,class2.csv,1,Daño pista externa,HP2,73728,75776,train
+781,class1.csv,0,Saludable,HP1,96256,98304,train
+782,class2.csv,1,Daño pista externa,HP0,69632,71680,train
+783,class2.csv,1,Daño pista externa,HP1,116736,118784,train
+784,class1.csv,0,Saludable,HP3,32768,34816,test
+785,class4.csv,3,Daño elementos rodantes,HP1,94208,96256,train
+786,class4.csv,3,Daño elementos rodantes,HP1,67584,69632,train
+787,class1.csv,0,Saludable,HP0,79872,81920,train
+788,class2.csv,1,Daño pista externa,HP1,100352,102400,train
+789,class1.csv,0,Saludable,HP3,28672,30720,test
+790,class2.csv,1,Daño pista externa,HP2,112640,114688,train
+791,class3.csv,2,Daño pista interna,HP1,6144,8192,train
+792,class1.csv,0,Saludable,HP3,30720,32768,test
+793,class1.csv,0,Saludable,HP1,59392,61440,train
+794,class4.csv,3,Daño elementos rodantes,HP0,73728,75776,train
+795,class3.csv,2,Daño pista interna,HP0,38912,40960,train
+796,class1.csv,0,Saludable,HP0,10240,12288,train
+797,class3.csv,2,Daño pista interna,HP2,34816,36864,train
+798,class4.csv,3,Daño elementos rodantes,HP0,6144,8192,train
+799,class4.csv,3,Daño elementos rodantes,HP3,30720,32768,test
+800,class2.csv,1,Daño pista externa,HP3,73728,75776,test
+801,class4.csv,3,Daño elementos rodantes,HP2,30720,32768,train
+802,class2.csv,1,Daño pista externa,HP2,75776,77824,train
+803,class2.csv,1,Daño pista externa,HP1,86016,88064,train
+804,class4.csv,3,Daño elementos rodantes,HP1,73728,75776,train
+805,class2.csv,1,Daño pista externa,HP2,22528,24576,train
+806,class3.csv,2,Daño pista interna,HP2,20480,22528,train
+807,class3.csv,2,Daño pista interna,HP0,81920,83968,train
+808,class4.csv,3,Daño elementos rodantes,HP3,49152,51200,test
+809,class2.csv,1,Daño pista externa,HP2,55296,57344,train
+810,class1.csv,0,Saludable,HP1,114688,116736,train
+811,class1.csv,0,Saludable,HP2,110592,112640,train
+812,class1.csv,0,Saludable,HP2,14336,16384,train
+813,class2.csv,1,Daño pista externa,HP1,22528,24576,train
+814,class3.csv,2,Daño pista interna,HP2,71680,73728,train
+815,class3.csv,2,Daño pista interna,HP2,45056,47104,train
+816,class4.csv,3,Daño elementos rodantes,HP0,30720,32768,train
+817,class4.csv,3,Daño elementos rodantes,HP1,65536,67584,train
+818,class4.csv,3,Daño elementos rodantes,HP2,81920,83968,train
+819,class3.csv,2,Daño pista interna,HP0,90112,92160,train
+820,class4.csv,3,Daño elementos rodantes,HP0,45056,47104,train
+821,class3.csv,2,Daño pista interna,HP2,38912,40960,train
+822,class1.csv,0,Saludable,HP3,96256,98304,test
+823,class3.csv,2,Daño pista interna,HP3,32768,34816,test
+824,class1.csv,0,Saludable,HP1,108544,110592,train
+825,class3.csv,2,Daño pista interna,HP0,22528,24576,train
+826,class3.csv,2,Daño pista interna,HP0,40960,43008,train
+827,class2.csv,1,Daño pista externa,HP1,79872,81920,train
+828,class2.csv,1,Daño pista externa,HP0,96256,98304,train
+829,class2.csv,1,Daño pista externa,HP0,92160,94208,train
+830,class2.csv,1,Daño pista externa,HP2,2048,4096,train
+831,class4.csv,3,Daño elementos rodantes,HP3,36864,38912,test
+832,class1.csv,0,Saludable,HP3,26624,28672,test
+833,class1.csv,0,Saludable,HP1,14336,16384,train
+834,class4.csv,3,Daño elementos rodantes,HP3,69632,71680,test
+835,class3.csv,2,Daño pista interna,HP2,63488,65536,train
+836,class3.csv,2,Daño pista interna,HP2,6144,8192,train
+837,class4.csv,3,Daño elementos rodantes,HP3,22528,24576,test
+838,class1.csv,0,Saludable,HP1,22528,24576,train
+839,class2.csv,1,Daño pista externa,HP3,8192,10240,test
+840,class3.csv,2,Daño pista interna,HP3,104448,106496,test
+841,class3.csv,2,Daño pista interna,HP2,116736,118784,train
+842,class1.csv,0,Saludable,HP3,6144,8192,test
+843,class4.csv,3,Daño elementos rodantes,HP0,81920,83968,train
+844,class4.csv,3,Daño elementos rodantes,HP3,86016,88064,test
+845,class1.csv,0,Saludable,HP2,2048,4096,train
+846,class3.csv,2,Daño pista interna,HP2,12288,14336,train
+847,class2.csv,1,Daño pista externa,HP2,49152,51200,train
+848,class1.csv,0,Saludable,HP0,20480,22528,train
+849,class3.csv,2,Daño pista interna,HP2,98304,100352,train
+850,class4.csv,3,Daño elementos rodantes,HP2,100352,102400,train
+851,class3.csv,2,Daño pista interna,HP3,63488,65536,test
+852,class1.csv,0,Saludable,HP1,10240,12288,train
+853,class4.csv,3,Daño elementos rodantes,HP0,79872,81920,train
+854,class3.csv,2,Daño pista interna,HP0,73728,75776,train
+855,class1.csv,0,Saludable,HP0,2048,4096,train
+856,class1.csv,0,Saludable,HP0,86016,88064,train
+857,class3.csv,2,Daño pista interna,HP2,110592,112640,train
+858,class3.csv,2,Daño pista interna,HP1,14336,16384,train
+859,class1.csv,0,Saludable,HP2,104448,106496,train
+860,class4.csv,3,Daño elementos rodantes,HP1,112640,114688,train
+861,class4.csv,3,Daño elementos rodantes,HP2,18432,20480,train
+862,class1.csv,0,Saludable,HP1,36864,38912,train
+863,class2.csv,1,Daño pista externa,HP1,47104,49152,train
+864,class2.csv,1,Daño pista externa,HP1,12288,14336,train
+865,class3.csv,2,Daño pista interna,HP0,77824,79872,train
+866,class3.csv,2,Daño pista interna,HP0,53248,55296,train
+867,class4.csv,3,Daño elementos rodantes,HP0,49152,51200,train
+868,class4.csv,3,Daño elementos rodantes,HP2,51200,53248,train
+869,class3.csv,2,Daño pista interna,HP1,43008,45056,train
+870,class3.csv,2,Daño pista interna,HP3,6144,8192,test
+871,class4.csv,3,Daño elementos rodantes,HP3,6144,8192,test
+872,class3.csv,2,Daño pista interna,HP2,75776,77824,train
+873,class2.csv,1,Daño pista externa,HP1,0,2048,train
+874,class4.csv,3,Daño elementos rodantes,HP1,51200,53248,train
+875,class1.csv,0,Saludable,HP3,77824,79872,test
+876,class3.csv,2,Daño pista interna,HP1,67584,69632,train
+877,class4.csv,3,Daño elementos rodantes,HP3,57344,59392,test
+878,class3.csv,2,Daño pista interna,HP3,69632,71680,test
+879,class2.csv,1,Daño pista externa,HP1,55296,57344,train
+880,class1.csv,0,Saludable,HP0,116736,118784,train
+881,class4.csv,3,Daño elementos rodantes,HP1,75776,77824,train
+882,class3.csv,2,Daño pista interna,HP1,26624,28672,train
+883,class2.csv,1,Daño pista externa,HP0,81920,83968,train
+884,class1.csv,0,Saludable,HP0,30720,32768,train
+885,class2.csv,1,Daño pista externa,HP3,53248,55296,test
+886,class3.csv,2,Daño pista interna,HP0,79872,81920,train
+887,class4.csv,3,Daño elementos rodantes,HP2,32768,34816,train
+888,class3.csv,2,Daño pista interna,HP2,83968,86016,train
+889,class1.csv,0,Saludable,HP2,43008,45056,train
+890,class4.csv,3,Daño elementos rodantes,HP0,12288,14336,train
+891,class2.csv,1,Daño pista externa,HP0,112640,114688,train
+892,class2.csv,1,Daño pista externa,HP3,92160,94208,test
+893,class3.csv,2,Daño pista interna,HP1,12288,14336,train
+894,class2.csv,1,Daño pista externa,HP1,20480,22528,train
+895,class4.csv,3,Daño elementos rodantes,HP0,114688,116736,train
+896,class3.csv,2,Daño pista interna,HP2,86016,88064,train
+897,class1.csv,0,Saludable,HP3,43008,45056,test
+898,class1.csv,0,Saludable,HP0,69632,71680,train
+899,class2.csv,1,Daño pista externa,HP0,110592,112640,train
+900,class2.csv,1,Daño pista externa,HP1,49152,51200,train
+901,class3.csv,2,Daño pista interna,HP1,51200,53248,train
+902,class2.csv,1,Daño pista externa,HP1,88064,90112,train
+903,class1.csv,0,Saludable,HP3,16384,18432,test
+904,class1.csv,0,Saludable,HP0,100352,102400,train
+905,class3.csv,2,Daño pista interna,HP0,110592,112640,train
+906,class1.csv,0,Saludable,HP1,90112,92160,train
+907,class3.csv,2,Daño pista interna,HP3,100352,102400,test
+908,class3.csv,2,Daño pista interna,HP3,26624,28672,test
+909,class1.csv,0,Saludable,HP0,83968,86016,train
+910,class3.csv,2,Daño pista interna,HP1,63488,65536,train
+911,class2.csv,1,Daño pista externa,HP2,36864,38912,train
+912,class3.csv,2,Daño pista interna,HP1,24576,26624,train
+913,class2.csv,1,Daño pista externa,HP0,88064,90112,train
+914,class3.csv,2,Daño pista interna,HP3,75776,77824,test
+915,class4.csv,3,Daño elementos rodantes,HP2,40960,43008,train
+916,class2.csv,1,Daño pista externa,HP1,26624,28672,train
+917,class1.csv,0,Saludable,HP1,112640,114688,train
+918,class4.csv,3,Daño elementos rodantes,HP0,108544,110592,train
+919,class4.csv,3,Daño elementos rodantes,HP3,77824,79872,test
+920,class2.csv,1,Daño pista externa,HP3,63488,65536,test
+921,class3.csv,2,Daño pista interna,HP0,55296,57344,train
+922,class3.csv,2,Daño pista interna,HP1,8192,10240,train
+923,class1.csv,0,Saludable,HP2,51200,53248,train
+924,class4.csv,3,Daño elementos rodantes,HP0,20480,22528,train
+925,class3.csv,2,Daño pista interna,HP1,53248,55296,train
+926,class3.csv,2,Daño pista interna,HP2,59392,61440,train
+927,class3.csv,2,Daño pista interna,HP3,20480,22528,test

@@ -1,0 +1,109 @@
+{
+  "configuracion": {
+    "seed": 42,
+    "data": {
+      "directory": "../data/originales",
+      "sampling_rate_hz": 12000,
+      "expected_rows": 120000,
+      "columns": [
+        "HP0",
+        "HP1",
+        "HP2",
+        "HP3"
+      ],
+      "classes": [
+        {
+          "file": "class1.csv",
+          "name": "Saludable"
+        },
+        {
+          "file": "class2.csv",
+          "name": "Daño pista externa"
+        },
+        {
+          "file": "class3.csv",
+          "name": "Daño pista interna"
+        },
+        {
+          "file": "class4.csv",
+          "name": "Daño elementos rodantes"
+        }
+      ]
+    },
+    "window": {
+      "length": 2048,
+      "step": 2048
+    },
+    "mde": {
+      "dimension": 3,
+      "delay": 1,
+      "symbols": 3,
+      "max_scale": 20,
+      "normalized": true
+    },
+    "split": {
+      "train_columns": [
+        0,
+        1,
+        2
+      ],
+      "test_columns": [
+        3
+      ]
+    },
+    "normalization": {
+      "ddof": 1
+    },
+    "sls": {
+      "activation": "cos",
+      "latent_dim": 19,
+      "lambda": 0.01,
+      "learning_rate": 0.001,
+      "beta": 0.9,
+      "epsilon": 1e-08,
+      "batch_size": 64,
+      "epochs": 300,
+      "seed": 43
+    },
+    "pca": {
+      "variance_threshold": 0.99,
+      "criterion": "at_least"
+    },
+    "softmax": {
+      "intercept": true,
+      "learning_rate": 0.01,
+      "beta": 0.9,
+      "epsilon": 1e-08,
+      "batch_size": 64,
+      "epochs": 500,
+      "seed": 44
+    }
+  },
+  "data_run_id": "4a1958f16b229eaa79160f362d7bd67580ca86ed474409fc3034a7a059322728",
+  "python_version": "3.15.2",
+  "numpy_version": "2.5.4",
+  "files_sha256": {
+    "dfeatures.csv": "454e0527a4ae1058e9268c53f3bcde5b691d642b810c99b1cea87acd9daa879d",
+    "dclass.csv": "ee3c9cb46857585da8cb9f78d48923af189f77284d53cc3240dabbe58e186312",
+    "dtrain": "eaeed8e089d04f8f7e7cab298fcec6d29740d9ca4f7b09a5e66bb5b9b106154d",
+    "dtest": "8d02c03a57720ca696e561ad980be24f0da60e8ee00e88c201c0409248b5caa2",
+    "pesos": "a220a19f916ef3580b0edf8e2dc89eb9a46019a1480e0d9b3891ac0068208fec",
+    "pesoftmax": "59d0dd49b8d6e95598d77883ce64941a731a3d8f221ab0bb2930f2f961298239",
+    "costo": "95c367e30f967859865fa0464c63e7a1ec7e51b0e6931dc1fb03ef1fd4264fb1",
+    "Resultados/fscores.csv": "dae286520db4e8011698078e33d1a7ab494368c61818d1d44f0016f48a54f795",
+    "Resultados/grafica_costo.png": "b38df7be36dc20ffe424dc82618e5652be0977e9970c387d3bb4ed1c2feb4ff5",
+    "Resultados/grafica_reconstruccion.png": "5b79cafc5ed7e34056e39a2dd57479c0a0a552cae589454e21d61e86a3a5b935",
+    "Resultados/matriz_confusion.csv": "80b557ab98faad1661c15e7c9eb5c6cd411bafda71eea21ef15d1d9a814387fa",
+    "Resultados/matriz_confusion.png": "05e03695bc677a1a4716a1e3426d0b5ee64696b4cefeb6e11e29d82a4a3c5885",
+    "Resultados/metricas.json": "b528bb78d65d1804a40c8db906dc03b15ed226b774dce2d71bcb86961021e06a",
+    "Resultados/predicciones.csv": "1aaeae1818d45fbfe0accce8d7023fc00b0de68a58017c24dd0a8b4cb7205dff",
+    "Resultados/varianza_pca.png": "433c162f6fc76e62b85597f469a0518e9f26c0d00920ed5db66c7b44fd885230"
+  },
+  "code_sha256": {
+    "comun.py": "1c8a804815e3743523aea98c43050c0cf635dd2a2a28da745d5e7b7b24dcf8aa",
+    "mdef.py": "fde5675439c1fcbb2bed12ead1cbb009dd7f996641ba13808c62798fe70c5576",
+    "dimr.py": "85d99d37d11de70bdd8a497100ce5108d80d5d088af757ab98e81a3b34b2be97",
+    "train.py": "f76152d20e0d2b131740e85a6f7d672312caca371c201f722cbbabb7ac661331",
+    "test.py": "ea27146cda1cef322154d9089169d32226755d866e403a59add98bddb486abf9"
+  }
+}
